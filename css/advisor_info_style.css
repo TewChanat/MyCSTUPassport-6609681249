@@ -1,0 +1,34 @@
+#header {
+    text-align: center;
+    font-size: 600%;
+}
+
+#advisor_profile_picture {
+    width: 500px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px;
+    overflow: hidden;
+}
+
+.collum_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#advisor_info_text {
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: "-";
+    font-size: 180%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+}
+
+#advisor_info_text li {
+    padding-left: 20px;
+    padding-bottom: 8px;
+}
