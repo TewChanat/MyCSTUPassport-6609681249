@@ -1,11 +1,11 @@
 #header {
     text-align: center;
-    font-size: 600%;
+    font-size: clamp(70px, 5vw, 96px);
 }
 
 #advisor_profile_picture {
-    width: 500px;
-    height: 600px;
+    width: 60%;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -30,4 +30,17 @@
 #advisor_info_text li {
     padding-left: 20px;
     padding-bottom: 8px;
+}
+
+@media screen and (max-width: 923px) {
+    .collum_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #dis_on_mobile {
+        display: none;
+    }
+
 }
