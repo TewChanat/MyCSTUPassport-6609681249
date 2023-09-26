@@ -21,3 +21,9 @@
     margin: auto;
     border-radius: 8%;
 }
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
