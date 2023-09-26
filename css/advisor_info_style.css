@@ -1,15 +1,16 @@
 #header {
     text-align: center;
     font-size: clamp(70px, 5vw, 96px);
+    white-space: nowrap;
 }
 
 #advisor_profile_picture {
-    width: 60%;
+    width: 40%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 20px;
+    border-radius: 30px;
 }
 
 .collum_info {
@@ -21,10 +22,9 @@
 #advisor_info_text {
     font-family: 'Courier New', Courier, monospace;
     list-style-type: "-";
-    font-size: 180%;
+    font-size: clamp(16px, 2vw, 29px);
     margin-top: 0px;
     margin-bottom: 30px;
-
 }
 
 #advisor_info_text li {
@@ -41,6 +41,10 @@
 
     #dis_on_mobile {
         display: none;
+    }
+
+    #advisor_profile_picture {
+        width: 50%;
     }
 
 }
