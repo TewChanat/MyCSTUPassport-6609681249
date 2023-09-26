@@ -1,29 +1,38 @@
 #my_info_text {
     font-family: 'Courier New', Courier, monospace;
     list-style-type: none;
-    font-size: 270%;
+    font-size: clamp(2rem, 3vw, 2.8rem);
     margin-top: 30px;
     margin-bottom: 120px;
+    margin-right: 50px;
 }
 
 #profile_picture {
-    float: left;
-    width: 500px;
-    height: 600px;
-    margin-left: 50px;
-    margin-right: 50px;
-    border: 20px;
-    overflow: hidden;
+    margin: 50px;
+    margin-top: 20px;
+    max-width: 50%;
+    height: auto;
 }
 
 .video_pre {
     display: block;
     margin: auto;
     border-radius: 8%;
+    max-width: 80%;
+    height: auto;
 }
 
 .info {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+
+}
+
+@media only screen and (max-width: 1150px) {
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
 }
