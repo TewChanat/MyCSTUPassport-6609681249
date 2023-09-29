@@ -3,7 +3,6 @@ div.all_content {
     flex-direction: column;
 }
 
-
 div.pic_text_content {
     display: flex;
     justify-content: space-around;
@@ -54,6 +53,14 @@ div.pic_text_content_re p {
     font-size: clamp(16px, 2vw, 32px);
 }
 
+#picture_wonderworld {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+
 @media screen and (max-width: 1130px) {
     div.pic_text_content {
         display: flex;
@@ -81,4 +88,8 @@ div.pic_text_content_re p {
         margin-bottom: 30px;
     }
 
+}
+
+#h1_wonderworld {
+    font-size: clamp(24px, 3vw, 48px);
 }
