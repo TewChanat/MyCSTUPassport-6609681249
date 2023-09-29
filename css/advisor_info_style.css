@@ -1,6 +1,6 @@
 #header {
     text-align: center;
-    font-size: clamp(70px, 5vw, 96px);
+    font-size: clamp(48px, 5vw, 96px);
     white-space: nowrap;
 }
 
