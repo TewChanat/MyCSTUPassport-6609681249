@@ -148,12 +148,12 @@ nav {
         flex-direction: row-reverse;
         margin: 20px;
         margin-bottom: 100px;
+
     }
 
     #topic h1 {
-        display: block;
+        white-space: wrap;
         text-align: right;
-        text-wrap: wrap;
         text-align: center;
         width: 50%;
     }
