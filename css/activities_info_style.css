@@ -30,6 +30,7 @@ div.gallery_item div {
     font-size: clamp(24px, 4vw, 32px);
 }
 
+/* for mobile and tablet */
 @media screen and (max-width: 780px) {
 
     div.gallery_container {

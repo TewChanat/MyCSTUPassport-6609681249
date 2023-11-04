@@ -6,7 +6,6 @@ body {
 
     background-color: #000000;
     position: absolute;
-
 }
 
 h1 {
@@ -34,6 +33,10 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
 }
 
 
@@ -50,6 +53,9 @@ nav {
     color: #d8b112;
 }
 
+#topic {
+    display: flex;
+}
 
 
 .menu_bar {
@@ -86,8 +92,80 @@ nav {
     color: #464646;
 }
 
+/* for tablet nav bar */
+@media screen and (max-width: 1150px) and (min-width: 901px) {
+    body {
+        margin-top: 0px;
+    }
 
-@media screen and (max-width: 1150px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    #title_bar {
+        text-align: center;
+    }
+
+    #title_bar a {
+        display: block;
+        margin: 0;
+        padding: 8px 16px;
+        font-size: clamp(24px, 4vw, 72px);
+    }
+
+    .menu_bar {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .menu_bar li a {
+        margin: 0;
+        padding: 8px 16px;
+
+        font-size: clamp(24px, 4vw, 72px);
+
+        text-align: center;
+
+        display: block;
+
+        color: #d8b112;
+        text-decoration: none;
+
+        align-items: center;
+    }
+
+    .menu_bar li a :hover {
+        background-color: #464646;
+    }
+
+    #topic {
+        flex-direction: row-reverse;
+        margin: 20px;
+        margin-bottom: 100px;
+    }
+
+    #topic h1 {
+        display: block;
+        text-align: right;
+        text-wrap: wrap;
+        text-align: center;
+        width: 50%;
+        font-size: clamp(48px, 6vw, 108px);
+    }
+}
+
+/* for mobile nav bar*/
+
+@media screen and (max-width: 900px) {
+    body {
+        margin-top: 150px;
+    }
 
     nav {
         display: flex;
